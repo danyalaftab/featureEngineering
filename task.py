@@ -5,5 +5,5 @@ from aoa import (
 
 def run(**kwargs):
     aoa_create_context()
-    df = DataFrame.from_query("sel * from dbc.dbcinfo")
-    print(df)
+    # df = DataFrame.from_query("sel * from dbc.dbcinfo")
+    print("danyal")
