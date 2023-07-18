@@ -1,7 +1,7 @@
 from teradataml import DataFrame
 from aoa import (aoa_create_context, ModelContext)
 
-def run_task(context: ModelContext, **kwargs):
+def run_task2(context: ModelContext, **kwargs):
     aoa_create_context()
     df = DataFrame.from_query("sel age, count(*) as patient_cnt from pima_patient_features group by 1")
     print(df)
